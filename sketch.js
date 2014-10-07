@@ -29,6 +29,8 @@ function setup() {
 function draw() {
   background(255);
   //createCanvas(1200, 800);
+
+  translate(-50,-90);
   noStroke();
   fill(0, 0, 0, 50);
   triangle(width/2-230, height/2+100, width/2-230, height/2-100, width/2-30, height/2+100);
