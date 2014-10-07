@@ -6,7 +6,7 @@ var multitriangle4;
 
 function setup() {
   background(255);
-  createCanvas(1200, 800);
+  createCanvas(600, 400);
   noStroke();
   fill(0, 0, 0, 50);
   triangle(width/2-230, height/2+100, width/2-230, height/2-100, width/2-30, height/2+100);
